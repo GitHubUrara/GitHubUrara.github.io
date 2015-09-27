@@ -2,10 +2,11 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>位置情報を取得してみたobserver</title>
+    <title>位置情報を取得してみたsender</title>
     <style>
         @charset "utf-8";
         #map {
+            width: 95%;
             height: 600px;
         }
     </style>
@@ -46,19 +47,13 @@ var dataStore = new MilkCocoa("leadif0ojze0.mlkcca.com").dataStore("chat");
 
 </script>
 
-<style>
-#map {
-    width: 95%;
-    height:500px;
-}
-</style>
 </head>
 
 <body>
-        <img src="milkcocoaicon.png">
+        <img src="milkcocoaicon.png" class="cup">
     <style>
         body {background-color: #EEBFBF}
-        img {
+        .cup {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -67,8 +62,9 @@ var dataStore = new MilkCocoa("leadif0ojze0.mlkcca.com").dataStore("chat");
             margin: auto;
             max-width: 100%;
             max-height: 100%;
-            }
+        }
     </style>
+
 </body>
 
 </html>
